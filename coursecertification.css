@@ -1,0 +1,21 @@
+.container.coursecertification__continer {
+    width: 50%;
+}
+
+.course__img{
+    overflow: hidden;
+}
+
+/***************************** MEDIA QUERIES (MEDIUM DEVICES) **************************/
+@media screen and (max-width: 1024px) {
+    .container.coursecertification__continer{
+        width: 70%;
+    }
+}
+
+/***************************** MEDIA QUERIES (SMALL DEVICES) **************************/
+@media screen and (max-width: 600px) {
+    .container.coursecertification__continer {
+        width: var(--container-width-sm);
+    }
+}
